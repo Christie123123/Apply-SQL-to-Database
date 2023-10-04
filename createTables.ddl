@@ -7,15 +7,15 @@
 --  DDL Statements for table Employees 
 ------------------------------------------------
 CREATE TABLE Employees
-(ID				    SMALLINT 		NOT NULL
-,LastName 			VARCHAR(20)     NOT NULL
-,FirstName			VARCHAR(20)		NOT NULL
-,PhoneNum			VARCHAR(20)		
-,HomeAddr			VARCHAR(200)	
-,SalaryPerMonth		REAL			NOT NULL
+(ID				        SMALLINT 		  NOT NULL
+,LastName 		   	VARCHAR(20)   NOT NULL
+,FirstName		  	VARCHAR(20)		NOT NULL
+,PhoneNum			    VARCHAR(20)		
+,HomeAddr			    VARCHAR(200)	
+,SalaryPerMonth		REAL			    NOT NULL
 ,YearsOfService		REAL
-,BirthDate			DATE	
-,Gender				CHAR(1)			NOT NULL CHECK (Gender IN ('M','F'))
+,BirthDate			  DATE	
+,Gender				    CHAR(1)			  NOT NULL CHECK (Gender IN ('M','F'))
 ,PRIMARY KEY (ID))
 IN USERSPACE1;
 
@@ -34,8 +34,8 @@ IN USERSPACE1;
 --  DDL Statements for table ResearchGroups
 ------------------------------------------------
 CREATE TABLE ResearchGroups
-(ID			        SMALLINT		NOT NULL
-,GroupName		    VARCHAR(100)	NOT NULL
+(ID			        SMALLINT		  NOT NULL
+,GroupName		  VARCHAR(100)	NOT NULL
 ,Budget			    REAL
 ,DepartmentID		SMALLINT		NOT NULL
 ,PRIMARY KEY (ID)
@@ -57,12 +57,12 @@ IN USERSPACE1;
 --  DDL Statements for table Buildings
 ------------------------------------------------
 CREATE TABLE Buildings
-(ID			    SMALLINT	NOT NULL
-,Name			VARCHAR(40)	NOT NULL
+(ID			      SMALLINT	  NOT NULL
+,Name			    VARCHAR(40)	NOT NULL
 ,NumOfFloors	SMALLINT
 ,NumOfRooms		SMALLINT
 ,NumOfMeters	SMALLINT
-,AdminEmpID		SMALLINT	NOT NULL
+,AdminEmpID		SMALLINT	  NOT NULL
 ,PRIMARY KEY (ID)
 ,CONSTRAINT FK_BLD_ADM FOREIGN KEY (AdminEmpID) REFERENCES Employees (ID))
 IN USERSPACE1;
