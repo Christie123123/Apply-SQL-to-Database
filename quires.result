@@ -1,0 +1,193 @@
+result1:
+
++--------+---------+--------------+--------------+
+|LASTNAME|FIRSTNAME|SALARYPERMONTH|YEARSOFSERVICE|
++--------+---------+--------------+--------------+
+|Jackson |Dave     |15342         |20            |
+|Rice    |Teresa   |13123         |21            |
+|Morgan  |Sarah    |12512         |12            |
+|Hunter  |John     |12789         |13            |
+|Johnson |Michelle |13100         |14            |
+|Mills   |Linda    |14231         |21            |
+|Wong    |Craig    |13632         |25            |
+|Hill    |Mike     |12076         |14            |
+|Davis   |Justin   |16584         |12            |
+|Darby   |Brian    |15343         |14            |
+|Miller  |Sheryl   |12312         |12            |
+|Thomas  |Joan     |13673         |10            |
+|Rice    |Jeff     |12653         |12            |
+|Nicholas|Connie   |12654         |14            |
+|Wood    |Kevin    |15021         |21            |
+|Williams|Mark     |13836         |16            |
+|Roy     |Joseph   |12348         |22            |
+|Robinson|Leo      |13798         |17            |
+|Johnson |Matt     |12398         |19            |
+|Wilson  |Karen    |12219         |17            |
+|Stover  |Susan    |13275         |19            |
+|Stone   |Janice   |14132         |25            |
+|Robinson|Helen    |13245         |21            |
+|Ryder   |Jonathon |16934         |28            |
+|Thomas  |Jennifer |12976         |10            |
+|Heal    |Micheal  |12017         |12            |
+|Todd    |Debra    |15843         |13            |
+|Hatton  |Christine|13143         |10            |
+|McDonald|Tracy    |13124         |15            |
+|Hart    |Bruce    |12957         |12            |
+|Hill    |Richard  |14459         |14            |
+|Joseph  |Tim      |12754         |12            |
+|Hunt    |Martin   |14212         |16            |
+|Mason   |Lori     |14152         |22            |
+|Kent    |Eric     |14183         |17            |
+|Mathew  |Eric     |14023         |15            |
+|Carter  |Vicki    |12012         |12            |
+|Chrysler|Allen    |12632         |14            |
+|Morgan  |Henry    |12635         |11            |
+|Booth   |Rebecca  |12024         |10            |
++--------+---------+--------------+--------------+
+
+result2:
++--------+---------+
+|LASTNAME|FIRSTNAME|
++--------+---------+
+|Reid    |Christina|
+|Marshall|Carmela  |
++--------+---------+
+
+result3:
+11614.645833333334
+
+result4:
++------------------------------------------------+
+|GROUPNAME                                       |
++------------------------------------------------+
+|Advanced Polymer Processing and Design          |
+|Electronic Materials                            |
+|Environmental Degradation and Corrosion         |
+|Robotics                                        |
+|Structural Materials                            |
+|Structures and Earthquake Engineering Facilities|
+|Water and Environmental Engineering Facilities  |
++------------------------------------------------+
+
+result5:
++--------+---------+
+|LASTNAME|FIRSTNAME|
++--------+---------+
+|Cooper  |Julia    |
+|Cooper  |Marian   |
+|Hill    |Mike     |
+|Hill    |Richard  |
+|Hunter  |Jany     |
+|Hunter  |John     |
+|Johnson |Matt     |
+|Johnson |Michelle |
+|Morgan  |Henry    |
+|Morgan  |Paul     |
+|Morgan  |Sarah    |
+|Rice    |Jeff     |
+|Rice    |Teresa   |
+|Robinson|Helen    |
+|Robinson|Leo      |
+|Robinson|Tom      |
+|Shaw    |Daniel   |
+|Shaw    |Katherine|
+|Smith   |Joanne   |
+|Smith   |Kathy    |
+|Thomas  |Jennifer |
+|Thomas  |Joan     |
+|Thomas  |Wayne    |
+|Thompson|David    |
+|Thompson|Nancy    |
+|Todd    |Debra    |
+|Todd    |Janice   |
+|Wilson  |Karen    |
+|Wilson  |Nicole   |
+|Wilson  |Tim      |
++--------+---------+
+
+
+result6 a):
++----------------+----------------------------------+
+|Nu- mOfElevators|NAME                              |
++----------------+----------------------------------+
+|2               |Burke Science Building            |
+|1               |Chester New Hall                  |
+|2               |David Braley Athletic Centre      |
+|2               |Hamilton Hall                     |
+|2               |Information Technology Building   |
+|4               |John Hodgins Building             |
+|1               |Life Sciences Building            |
+|4               |McMaster University Student Centre|
+|3               |Mills Library                     |
+|2               |University Hall                   |
++----------------+----------------------------------+
+
+result6 b):
++----------------+----------------------------------+
+|Nu- mOfElevators|NAME                              |
++----------------+----------------------------------+
+|4               |John Hodgins Building             |
+|4               |McMaster University Student Centre|
+|3               |Mills Library                     |
++----------------+----------------------------------+
+
+result7:
++----------------------------------+---------+
+|NAME                              |TYPENAME |
++----------------------------------+---------+
+|Burke Science Building            |Food Area|
+|Chester New Hall                  |Food Area|
+|David Braley Athletic Centre      |Food Area|
+|David Braley Athletic Centre      |Lobby    |
+|Hamilton Hall                     |Food Area|
+|Information Technology Building   |Lobby    |
+|John Hodgins Building             |Food Area|
+|John Hodgins Building             |Lobby    |
+|Life Sciences Building            |Lobby    |
+|McMaster University Student Centre|Food Area|
+|McMaster University Student Centre|Lobby    |
++----------------------------------+---------+
+
+
+result8:
++--+--------+---------+
+|ID|LASTNAME|FIRSTNAME|
++--+--------+---------+
+|4 |Rice    |Teresa   |
+|87|Chrysler|Allen    |
+|54|Stover  |Susan    |
+|63|Todd    |Debra    |
+|1 |Jackson |Dave     |
+|49|Robinson|Leo      |
++--+--------+---------+
+
+
+
+result9:
+843.3220999999899
+
+result10:
++------------------+------------------------------------------------+
+|HydroBills        |GROUPNAME                                       |
++------------------+------------------------------------------------+
+|81.7173           |Probability & Statistics                        |
+|423.83560000000017|Cell and Developmental Biology                  |
+|455.04229999999967|Structures and Earthquake Engineering Facilities|
+|455.9033999999975 |Astronomy and Astrophysics                      |
+|489.94410000000016|Advanced Polymer Processing and Design          |
+|523.0147000000051 |Image Processing and Multimedia                 |
+|524.1046999999999 |Electronic Materials                            |
+|524.2355000000003 |Quantum Condensed Matter Physics                |
+|555.8237000000018 |Structural Materials                            |
+|589.8098999999975 |Nano-and Micro- Device Engineering              |
+|619.0437000000051 |Water and Environmental Engineering Facilities  |
+|653.7710999999962 |Environmental Degradation and Corrosion         |
+|719.1275          |Robotics                                        |
+|815.2764000000006 |Embedded Systems Laboratory                     |
+|816.7370000000203 |Pulp and Paper Technology                       |
++------------------+------------------------------------------------+
+
+
+
+
+
