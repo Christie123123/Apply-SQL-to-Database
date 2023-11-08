@@ -1,4 +1,4 @@
-connect to CS2DB3;
+connect to COMPANY_DATABASE;
 
 /* 1. Find all employees (their first name, last name, salary per month, years of service)
 who have a monthly salary greater than $12,000 and have 10 or more years of service.*/
